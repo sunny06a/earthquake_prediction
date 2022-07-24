@@ -10,25 +10,40 @@ This dataset includes a record of the date, time, location, depth, magnitude, an
  RandomForestRegressor and to improve it GridSearchCV
 
 #Steps
-1.Import the necessary libraries required for buidling the model 
+
+1.Import the necessary libraries required for buidling the model
+
  a. numpy
+ 
  b. pandas
+ 
  c. matplotlib
+ 
  d. Sklearn
+ 
  e. datetime
+ 
  f. basemap
  
  2. Data loading and cleaning
-  a. Used pandas to load data from CSV file 
-  b. Changing date time to tiemstamp
-  c. Visulazing data on world map
-  
+
+a. Used pandas to load data from CSV file 
+
+b. Changing date time to tiemstamp
+
+c. Visulazing data on world map
+
  3. Training Model 
-  a. Splitting Data 
-  b. RandomForest Regression 
-  c. GridSearchCV
+
+a. Splitting Data 
+
+b. RandomForest Regression 
+
+c. GridSearchCV
   
  4. Evulating model 
-  a. RandomForest Regression   score >85%
-  b. GridSearchCV   score >90%
+
+a. RandomForest Regression   score >85%
+
+b. GridSearchCV   score >90%
   
